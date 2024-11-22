@@ -1,0 +1,92 @@
+/* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<style>
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+</style> */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "inter";
+    overflow: hidden;
+}
+html{
+    font-size: 62.5%
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%);
+}
+.inner-container{
+    width: 30rem;
+    background-color:   hsl(0, 0%, 12%);
+    border-radius: 7px;
+    padding: 2.5rem;
+}
+.img-jessi{
+    width: 8rem;
+    height: 8rem; 
+}
+.img-jessi img{
+    width: 100%;
+    border-radius: 50%;
+    padding-top: 0.5rem;
+}
+h1{
+    font-size: 2rem;
+    color: hsl(0, 0%, 100%);
+    padding: 1.6rem 0 0 0;
+    font-weight: 700;
+}
+span{
+    font-size: 1.2rem;
+    color: hsl(75, 94%, 57%);
+    font-weight: 400;
+    display: inline-block;
+    padding: 0.8rem 0 1.8rem 0;
+}
+.para{
+    font-size: 1.2rem;
+    padding: 0 0 1.7rem 0;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links-out{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1.2rem;
+}
+.link:link,
+.link:visited{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    display: inline-block;
+    background-color: hsl(0, 0%, 20%);    
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.link:hover,
+.link:active{
+    color: hsl(0, 0%, 12%);
+    transition: all 0.3s;
+    background-color: hsl(75, 94%, 57%);
+}

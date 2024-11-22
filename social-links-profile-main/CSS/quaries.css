@@ -1,0 +1,9 @@
+@media (max-width: 40em) {
+    html{
+        font-size: 20%;
+    }
+    h1{
+        color: red;
+        font-size: 4rem;
+    }
+}
